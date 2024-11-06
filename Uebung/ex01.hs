@@ -35,6 +35,12 @@
 --     -  Lehmann lügt, Müller sagt die Wahrheit, Schulze sagt die Wahrheit
 --     -  Lehmann sagt die Wahrheit,  Müller sagt die Wahrheit, Schulze sagt die Wahrheit
 
-
+-- c)
 riddle :: Bool -> Bool -> Bool -> Bool
 riddle l m s = (not l ||  m)&&(not m || s)&&(not s || (l || m))
+
+
+-- Aufgabe 2)
+
+-- a)
+-- (𝑎 ⋅ 𝑤𝑎 + 𝑏 ⋅ 𝑤𝑏)/(𝑤𝑎 + 𝑤𝑏)
